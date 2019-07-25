@@ -31,7 +31,7 @@ and hit enter after that our terminal responds us like this;
  * Debugger PIN: 292-676-818
 ```
 
-opening *http://127.0.0.1:8080/* in your browser will make your app visible for you in browser.
+opening *(http://127.0.0.1:8080/)[http://127.0.0.1:8080/] * in your browser will make your app visible for you in browser.
 
 You can see if your api works or not by entering values like */kafesler*, */kafesler/mavi_kafesler*, */kafesler/mavi_kafesler/order*, */kafesler/mavi_kafesler/adet* after your localhost's name.
 
@@ -79,7 +79,7 @@ just like that...
 
 
 ## Database
-For making your own database you can simply use *github.com/ybgirgin3/BookStore-Database* app 
+For making your own database you can simply use *(github.com/ybgirgin3/BookStore-Database)[github.com/ybgirgin3/BookStore-Database]* app 
 
 
 ## NOTE
