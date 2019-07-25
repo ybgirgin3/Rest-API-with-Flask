@@ -77,5 +77,10 @@ $ pip3 install flask_restful, sqlalchemy
 
 just like that...
 
+
+## Database
+For making your own database you can simply use *github.com/ybgirgin3/BookStore-Database* app 
+
+
 ## NOTE
 This app based on a scenario, so you may need to change a value or some values from app file or database file
