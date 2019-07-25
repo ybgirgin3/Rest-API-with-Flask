@@ -1,6 +1,6 @@
 # Flask Api Example for Beginners
 
-This piece of Python code just a example of how to make an rest api with python using flask module in minutes
+This piece of Python code just a example of how to make a rest api with python using flask module in minutes
 
 ## Running App
 
@@ -22,10 +22,10 @@ $ python3 app.py
 MacOS and Windows;
 
 
-You can use same command but use with which letter you use your python python/python3
+You can use same command but use with which python version you use python/python3
 
 
-and hit enter after that our terminal will respond us like this;
+and hit enter. After that our terminal will respond us like this;
 
 
 ```sh
@@ -51,7 +51,7 @@ You can see if your api works or not by entering values like */kafesler*, */kafe
 
 ## Modules Installation
 
-- We use flask in making this app and it's not a built-in function so we need to install it with pip
+- We use flask to make this app and it's not a built-in function so we need to install it with pip
 
 for python2
 
@@ -92,4 +92,4 @@ For making your own database you can simply use [github.com/ybgirgin3/BookStore-
 
 
 ## NOTE
-This app based on a scenario, so you may need to change a value or some values from app file or database file
+This app based on a scenario, so you may need to change a value or some values in the app.py file or the example_db.db file
