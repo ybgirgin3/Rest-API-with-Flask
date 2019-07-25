@@ -3,6 +3,9 @@
 This piece of Python code just a example of how to make an rest api with python using flask module in minutes
 
 ## Running App
+
+LINUX;
+
 for python2
 
 ```sh
@@ -16,7 +19,13 @@ $ python3 app.py
 ```
 
 
-and hit enter after that our terminal responds us like this;
+MacOS and Windows;
+
+
+You can use same command but use with which letter you use your python python/python3
+
+
+and hit enter after that our terminal will respond us like this;
 
 
 ```sh
@@ -31,7 +40,7 @@ and hit enter after that our terminal responds us like this;
  * Debugger PIN: 292-676-818
 ```
 
-opening *(http://127.0.0.1:8080/)[http://127.0.0.1:8080/] * in your browser will make your app visible for you in browser.
+opening [http://127.0.0.1:8080/](http://127.0.0.1:8080/) in your browser will make your app visible for you in browser.
 
 You can see if your api works or not by entering values like */kafesler*, */kafesler/mavi_kafesler*, */kafesler/mavi_kafesler/order*, */kafesler/mavi_kafesler/adet* after your localhost's name.
 
@@ -79,7 +88,7 @@ just like that...
 
 
 ## Database
-For making your own database you can simply use *(github.com/ybgirgin3/BookStore-Database)[github.com/ybgirgin3/BookStore-Database]* app 
+For making your own database you can simply use [github.com/ybgirgin3/BookStore-Database](github.com/ybgirgin3/BookStore-Database) app 
 
 
 ## NOTE
