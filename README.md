@@ -25,7 +25,7 @@ then install virtualenv using pip3
 ~$ sudo pip3 install virtualenv
 ```
 
-*NOTE: Installing python libs with 'sudo' can change your current libraries versions and can corrupt your installed apps or scripts on your distrubition which written in python. So to be safe I recommend you to install libs locally with using '--user'*
+*WARNING: Installing python libs with 'sudo' can change your current libraries versions and can corrupt your installed apps or scripts on your distrubition which written in python. So to be safe I recommend you to install libs locally with using '--user'*
 
 
 
@@ -51,7 +51,7 @@ andd... after all your work done you can deactivate your virtualenv with 'deacti
 
 ## Running App
 
-for python3
+- for python3
 
 ```sh
 ~$ python3 app.py
