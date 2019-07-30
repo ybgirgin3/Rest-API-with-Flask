@@ -49,7 +49,20 @@ andd... after all your work done you can deactivate your virtualenv with 'deacti
 ```
 
 
+*- While your virtualenv works follow the module installation*
+
+## Modules Installation
+
+- We use flask, flask_restful, sqlalchemy in making this app and it's not a built-in function so we need to install it with pip
+
+
+```sh
+~$ pip3 install flask, flask_restful, sqlalchemy
+```
+
 ## Running App
+
+- for python3
 
 ```sh
 ~$ python3 app.py
@@ -74,20 +87,6 @@ and hit enter after that our terminal responds us like this;
 opening *http://127.0.0.1:8080/* in your browser will make your app visible for you in browser.
 
 You can see if your api works or not by entering values like */kafesler*, */kafesler/mavi_kafesler*, */kafesler/mavi_kafesler/order*, */kafesler/mavi_kafesler/adet* after your localhost's name.
-
-
-## Explanation
-
-- App actually works as database reader, reads database and make it accessable from browser with localhost or smth.
-
-## Modules Installation
-
-- We use flask, flask_restful, sqlalchemy in making this app and it's not a built-in function so we need to install it with pip
-
-
-```sh
-~$ pip3 install flask, flask_restful, sqlalchemy
-```
 
 ## NOTE
 This app based on a scenario, so you may need to change a value or some values from app file or database file
