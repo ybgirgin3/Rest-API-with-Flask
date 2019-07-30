@@ -51,8 +51,6 @@ andd... after all your work done you can deactivate your virtualenv with 'deacti
 
 ## Running App
 
-- for python3
-
 ```sh
 ~$ python3 app.py
 ```
