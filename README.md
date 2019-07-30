@@ -25,7 +25,7 @@ then install virtualenv using pip3
 ~$ sudo pip3 install virtualenv
 ```
 
-**#NOTE: Installing python libs with 'sudo' can change your current libraries versions and can corrupt your installed apps or scripts in your distrubition which written in python. So to be safe I recommend you to install libs locally with using '--user'**
+*NOTE: Installing python libs with 'sudo' can change your current libraries versions and can corrupt your installed apps or scripts on your distrubition which written in python. So to be safe I recommend you to install libs locally with using '--user'*
 
 
 
@@ -50,11 +50,6 @@ andd... after all your work done you can deactivate your virtualenv with 'deacti
 
 
 ## Running App
-for python2
-
-```sh
-~$ python app.py
-```
 
 for python3
 
@@ -89,40 +84,12 @@ You can see if your api works or not by entering values like */kafesler*, */kafe
 
 ## Modules Installation
 
-- We use flask in making this app and it's not a built-in function so we need to install it with pip
+- We use flask, flask_restful, sqlalchemy in making this app and it's not a built-in function so we need to install it with pip
 
-for python2
 
 ```sh
-~$ pip install flask
+~$ pip3 install flask, flask_restful, sqlalchemy
 ```
-
-
-for python3
-
-```sh
-~$ pip3 install flask
-```
-
-
-
-We don't use only flask.. We need to install *flask_restful* and *sqlalchemy* for making database items accessable from api. Flask works together each of them.
-
-We can install these with pip too..
-
-for python2
-
-```sh
-~$ pip install flask_restful, sqlalchemy
-```
-
-for python3
-
-```sh
-~$ pip3 install flask_restful, sqlalchemy
-```
-
-just like that...
 
 ## NOTE
 This app based on a scenario, so you may need to change a value or some values from app file or database file
