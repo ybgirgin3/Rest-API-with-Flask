@@ -3,7 +3,7 @@
 This piece of Python code just a example of how to make an rest api with python using flask module in minutes
 
 
-## Before run application we need to install and activate virtualenv (highly recommended)
+## Install and activate virtualenv (highly recommended)
 * Install pip first
 
 LINUX;
