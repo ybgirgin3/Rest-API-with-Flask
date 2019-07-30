@@ -1,31 +1,69 @@
 # Flask Api Example for Beginners
 
-This piece of Python code just a example of how to make a rest api with python using flask module in minutes
+This piece of Python code just a example of how to make an rest api with python using flask module in minutes
 
-## Running App
+
+## Before run application we need to install and activate virtualenv (highly recommended)
+* Install pip first
 
 LINUX;
 
+```sh
+~$ sudo apt-get install pip3
+```
+
+then install virtualenv using pip3
+
+*recommended style of installation*
+```sh
+~$ pip3 install virtualenv --user
+```
+
+
+*not recommended style of installation*
+```sh
+~$ sudo pip3 install virtualenv
+```
+
+**#NOTE: Installing python libs with 'sudo' can change your current libraries versions and can corrupt your installed apps or scripts on your distrubition which written in python. So to be safe I recommend you to install libs locally with using '--user'**
+
+
+
+now let's create our virtualenv, you can add your python interpreter in your command. Mine is python3.6
+
+```sh
+~$ virtualenv -p /usr/bin/python3.6 venv
+```
+
+after all of it done activate your virtualenv with this command;
+
+```sh
+~$ source venv/bin/activate
+```
+
+
+andd... after all your work done you can deactivate your virtualenv with 'deactivate' command
+
+```sh
+~$ deactivate
+```
+
+
+## Running App
 for python2
 
 ```sh
-$ python app.py
+~$ python app.py
 ```
 
 for python3
 
 ```sh
-$ python3 app.py
+~$ python3 app.py
 ```
 
 
-MacOS and Windows;
-
-
-You can use same command but use with which python version you use python/python3
-
-
-and hit enter. After that our terminal will respond us like this;
+and hit enter after that our terminal responds us like this;
 
 
 ```sh
@@ -40,7 +78,7 @@ and hit enter. After that our terminal will respond us like this;
  * Debugger PIN: 292-676-818
 ```
 
-opening [http://127.0.0.1:8080/](http://127.0.0.1:8080/) in your browser will make your app visible for you in browser.
+opening *http://127.0.0.1:8080/* in your browser will make your app visible for you in browser.
 
 You can see if your api works or not by entering values like */kafesler*, */kafesler/mavi_kafesler*, */kafesler/mavi_kafesler/order*, */kafesler/mavi_kafesler/adet* after your localhost's name.
 
@@ -51,19 +89,19 @@ You can see if your api works or not by entering values like */kafesler*, */kafe
 
 ## Modules Installation
 
-- We use flask to make this app and it's not a built-in function so we need to install it with pip
+- We use flask in making this app and it's not a built-in function so we need to install it with pip
 
 for python2
 
 ```sh
-$ pip install flask
+~$ pip install flask
 ```
 
 
 for python3
 
 ```sh
-$ pip3 install flask
+~$ pip3 install flask
 ```
 
 
@@ -75,21 +113,16 @@ We can install these with pip too..
 for python2
 
 ```sh
-$ pip install flask_restful, sqlalchemy
+~$ pip install flask_restful, sqlalchemy
 ```
 
 for python3
 
 ```sh
-$ pip3 install flask_restful, sqlalchemy
+~$ pip3 install flask_restful, sqlalchemy
 ```
 
 just like that...
 
-
-## Database
-For making your own database you can simply use [github.com/ybgirgin3/BookStore-Database](github.com/ybgirgin3/BookStore-Database) app 
-
-
 ## NOTE
-This app based on a scenario, so you may need to change a value or some values in the app.py file or the example_db.db file
+This app based on a scenario, so you may need to change a value or some values from app file or database file
